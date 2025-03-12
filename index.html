@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Flint - Find Your Match</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+        <h1>🔥 Welcome to Flint 🔥</h1>
+        <p>Swipe. Match. Chat. Play.</p>
+        <button onclick="openSignup()">Join Now</button>
+    </header>
+
+    <section id="signup" class="hidden">
+        <h2>Create Your Profile</h2>
+        <form>
+            <input type="text" placeholder="Full Name">
+            <input type="email" placeholder="Email">
+            <input type="password" placeholder="Password">
+            <button type="submit">Continue</button>
+        </form>
+    </section>
+
+    <section id="swipe-section" class="hidden">
+        <h2>🔥 Start Swiping</h2>
+        <div class="swipe-card">
+            <img src="https://source.unsplash.com/random/400x400?person" alt="User">
+            <h3>Alex, 23</h3>
+            <p>📍 New York</p>
+            <button class="dislike">❌</button>
+            <button class="like">❤️</button>
+        </div>
+    </section>
+
+    <script src="script.js"></script>
+</body>
+</html>

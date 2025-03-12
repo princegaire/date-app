@@ -1,0 +1,49 @@
+body {
+    font-family: Arial, sans-serif;
+    text-align: center;
+    background: linear-gradient(135deg, #ff758c, #ff7eb3);
+    color: white;
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    padding: 50px;
+}
+
+button {
+    padding: 15px 25px;
+    background: #ff4081;
+    color: white;
+    border: none;
+    cursor: pointer;
+    font-size: 18px;
+    border-radius: 10px;
+}
+
+.hidden {
+    display: none;
+}
+
+#swipe-section {
+    margin-top: 30px;
+}
+
+.swipe-card {
+    background: white;
+    color: black;
+    padding: 20px;
+    width: 300px;
+    margin: 20px auto;
+    border-radius: 10px;
+}
+
+.swipe-card img {
+    width: 100%;
+    border-radius: 10px;
+}
+
+.like, .dislike {
+    font-size: 24px;
+    margin: 10px;
+}
